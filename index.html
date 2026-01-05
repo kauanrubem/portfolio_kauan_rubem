@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Kauan Rubem Fausto Matos | Desenvolvedor Full Stack</title>
+    <meta
+      name="description"
+      content="Landing page de Kauan Rubem Fausto Matos, desenvolvedor full stack. Projetos, tecnologias, experiência e contato."
+    />
+    <meta property="og:title" content="Kauan Rubem Fausto Matos | Desenvolvedor Full Stack" />
+    <meta
+      property="og:description"
+      content="Projetos, tecnologias, experiência e contato."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0b1220" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%2366e3ff%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238fffbd%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20x%3D%224%22%20y%3D%224%22%20width%3D%2256%22%20height%3D%2256%22%20rx%3D%2214%22%20fill%3D%22url(%23g)%22/%3E%3Ctext%20x%3D%2232%22%20y%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22ui-sans-serif%2Csystem-ui%2C-apple-system%2CSegoe%20UI%2CRoboto%2CArial%22%20font-size%3D%2226%22%20font-weight%3D%22900%22%20fill%3D%22%2306101a%22%3EKR%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="#topo" aria-label="Ir para o topo">
+          <span class="brand__logo" aria-hidden="true">
+            <svg viewBox="0 0 256 128" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false">
+              <defs>
+                <linearGradient id="krFill" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#66e3ff" />
+                  <stop offset="1" stop-color="#8fffbd" />
+                </linearGradient>
+                <linearGradient id="krStroke" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0" stop-color="#66e3ff" />
+                  <stop offset="1" stop-color="#8fffbd" />
+                </linearGradient>
+              </defs>
+
+              <rect x="12" y="16" width="232" height="96" rx="22" fill="none" stroke="url(#krStroke)" stroke-width="6" />
+
+              <path
+                d="M56 96V32h18v25l26-25h24L90 64l34 32H98L74 73v23H56Z"
+                fill="url(#krFill)"
+              />
+              <path
+                d="M132 96V32h46c14 0 24 10 24 22 0 9-5 16-13 20l19 22h-22l-16-19h-20v19h-18Zm18-34h26c6 0 10-4 10-9s-4-9-10-9h-26v18Z"
+                fill="url(#krFill)"
+              />
+            </svg>
+          </span>
+          <span class="brand__text">Kauan Rubem</span>
+        </a>
+
+        <nav class="nav" aria-label="Navegação principal">
+          <a class="nav__link" href="#sobre">Sobre</a>
+          <a class="nav__link" href="#habilidades">Habilidades</a>
+          <a class="nav__link" href="#experiencia">Experiência</a>
+          <a class="nav__link" href="#projetos">Projetos</a>
+          <a class="nav__link" href="#contato">Contato</a>
+        </nav>
+
+        <div class="header__actions">
+          <button class="icon-btn" type="button" id="themeToggle" aria-label="Alternar tema">
+            <span class="icon" aria-hidden="true" id="themeIcon">◐</span>
+          </button>
+          <a class="btn btn--primary" href="#projetos">Ver projetos</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="topo">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow">Desenvolvedor Full Stack</p>
+            <h1 class="hero__title">Kauan Rubem Fausto Matos</h1>
+            <p class="hero__subtitle">
+              Desenvolvimento de aplicações web com foco em performance, experiência do usuário e integração com APIs.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#contato">Falar comigo</a>
+              <a class="btn btn--ghost" href="https://github.com/kauanrubem" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+              <a
+                class="btn btn--ghost"
+                href="https://www.linkedin.com/in/kauan-rubem-fausto-matos-56897431a/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </div>
+
+            <dl class="meta">
+              <div class="meta__item">
+                <dt class="meta__label">Email</dt>
+                <dd class="meta__value">
+                  <a
+                    class="link"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=kauanrubem@gmail.com&su=Contato%20-%20Kauan%20Rubem&body=Ol%C3%A1%20Kauan%2C%0D%0A%0D%0AQuero%20falar%20sobre%3A%20%0D%0A%0D%0AAtenciosamente%2C%0D%0A"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    kauanrubem@gmail.com
+                  </a>
+                </dd>
+              </div>
+              <div class="meta__item">
+                <dt class="meta__label">Formação</dt>
+                <dd class="meta__value">Formando em Ciência da Computação (UESB)</dd>
+              </div>
+              <div class="meta__item">
+                <dt class="meta__label">Inglês</dt>
+                <dd class="meta__value">Avançado</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero__media">
+            <div class="avatar">
+              <img
+                id="avatarImg"
+                class="avatar__img"
+                src="https://avatars.githubusercontent.com/kauanrubem"
+                alt="Foto de Kauan Rubem Fausto Matos"
+                loading="lazy"
+              />
+            </div>
+            <div class="hero__stats" aria-label="Destaques">
+              <div class="stat">
+                <div class="stat__value" id="repoCount">—</div>
+                <div class="stat__label">Repositórios públicos</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">UI/UX</div>
+                <div class="stat__label">Figma e design funcional</div>
+              </div>
+              <div class="stat">
+                <div class="stat__value">APIs</div>
+                <div class="stat__label">Integração REST</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sobre">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Sobre</h2>
+            <p class="section__lead">
+              Estudante de Ciência da Computação e desenvolvedor full stack, com experiência prática em aplicações web modernas.
+            </p>
+          </div>
+
+          <div class="grid-2">
+            <div class="card">
+              <h3 class="card__title">Objetivo</h3>
+              <p class="card__text">
+                Busco uma oportunidade de estágio na área de Tecnologia da Informação, com o objetivo de aplicar meus conhecimentos
+                em desenvolvimento de aplicações web e evoluir continuamente como profissional.
+              </p>
+              <div class="chips" aria-label="Foco">
+                <span class="chip">Inovação</span>
+                <span class="chip">Otimização</span>
+                <span class="chip">Design funcional</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="card__title">O que eu entrego</h3>
+              <ul class="list">
+                <li>Interfaces responsivas e acessíveis</li>
+                <li>Integrações com APIs e fluxos de dados</li>
+                <li>Código limpo, modular e fácil de manter</li>
+                <li>Colaboração com Git, GitHub e rotinas de CI/CD</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="habilidades">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Habilidades</h2>
+            <p class="section__lead">Tecnologias e práticas que uso no dia a dia.</p>
+          </div>
+
+          <div class="grid-3">
+            <div class="card">
+              <h3 class="card__title">Front-end</h3>
+              <div class="chips">
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">Sass</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">TypeScript</span>
+                <span class="chip">React</span>
+                <span class="chip">Angular</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="card__title">Back-end</h3>
+              <div class="chips">
+                <span class="chip">Java</span>
+                <span class="chip">Spring Boot</span>
+                <span class="chip">Ruby</span>
+                <span class="chip">Ruby on Rails</span>
+                <span class="chip">SQL</span>
+                <span class="chip">APIs REST</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="card__title">Ferramentas</h3>
+              <div class="chips">
+                <span class="chip">Git</span>
+                <span class="chip">GitHub</span>
+                <span class="chip">GitFlow</span>
+                <span class="chip">Docker</span>
+                <span class="chip">Figma</span>
+                <span class="chip">Scrum</span>
+                <span class="chip">Kanban</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experiencia">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Experiência</h2>
+            <p class="section__lead">Atuação em projetos e programas de formação prática.</p>
+          </div>
+
+          <div class="timeline" role="list">
+            <article class="timeline__item" role="listitem">
+              <header class="timeline__head">
+                <h3 class="timeline__title">Residência de Software — 2ª Fase</h3>
+                <p class="timeline__meta">Front-end Developer · jan/2025 — out/2025</p>
+              </header>
+              <p class="timeline__text">
+                Desenvolvimento front-end em sistema de capacitação com suporte a SRE, utilizando Docker e práticas de qualidade.
+              </p>
+            </article>
+
+            <article class="timeline__item" role="listitem">
+              <header class="timeline__head">
+                <h3 class="timeline__title">Residência de Software — 1ª Fase</h3>
+                <p class="timeline__meta">Front-end Developer · jul/2024 — dez/2024</p>
+              </header>
+              <p class="timeline__text">
+                Implementação de funcionalidades com mapas, formulários e consumo de APIs, com foco em responsividade e usabilidade.
+              </p>
+            </article>
+
+            <article class="timeline__item" role="listitem">
+              <header class="timeline__head">
+                <h3 class="timeline__title">Siacont Sistemas e Consultoria LTDA</h3>
+                <p class="timeline__meta">Auxiliar Técnico em Programação</p>
+              </header>
+              <p class="timeline__text">
+                Criação de scripts e relatórios, apoio em automações e integração com aplicações.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projetos">
+        <div class="container">
+          <div class="section__head section__head--row">
+            <div>
+              <h2 class="section__title">Projetos</h2>
+              <p class="section__lead">
+                Repositórios públicos do GitHub. Os dados são carregados automaticamente.
+              </p>
+            </div>
+            <div class="section__actions">
+              <label class="search" for="repoSearch">
+                <span class="search__label">Buscar</span>
+                <input
+                  id="repoSearch"
+                  class="search__input"
+                  type="search"
+                  placeholder="Pesquise aqui"
+                  autocomplete="off"
+                />
+              </label>
+              <a class="btn btn--ghost" href="https://github.com/kauanrubem?tab=repositories" target="_blank" rel="noreferrer">
+                Ver todos no GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="repo" aria-live="polite">
+            <div class="repo__grid" id="repoGrid"></div>
+            <div class="repo__footer">
+              <button class="btn btn--secondary" type="button" id="loadMoreBtn" hidden>Carregar mais</button>
+              <p class="repo__status" id="repoStatus" role="status"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--cta" id="contato">
+        <div class="container">
+          <div class="cta">
+            <div class="cta__copy">
+              <h2 class="cta__title">Vamos construir algo juntos?</h2>
+              <p class="cta__text">
+                Aberto a oportunidades e projetos. Me chama por email ou confira meus repositórios.
+              </p>
+            </div>
+            <div class="cta__actions">
+              <a
+                class="btn btn--primary"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=kauanrubem@gmail.com&su=Contato%20-%20Kauan%20Rubem&body=Ol%C3%A1%20Kauan%2C%0D%0A%0D%0AQuero%20falar%20sobre%3A%20%0D%0A%0D%0AAtenciosamente%2C%0D%0A"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Enviar email
+              </a>
+              <a class="btn btn--ghost" href="https://github.com/kauanrubem" target="_blank" rel="noreferrer">GitHub</a>
+              <a
+                class="btn btn--ghost"
+                href="https://www.linkedin.com/in/kauan-rubem-fausto-matos-56897431a/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__text">© <span id="year"></span> Kauan Rubem Fausto Matos</p>
+        <div class="footer__links">
+          <a class="link" href="#topo">Topo</a>
+          <a class="link" href="https://github.com/kauanrubem" target="_blank" rel="noreferrer">GitHub</a>
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/kauan-rubem-fausto-matos-56897431a/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
+            class="link"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=kauanrubem@gmail.com&su=Contato%20-%20Kauan%20Rubem&body=Ol%C3%A1%20Kauan%2C%0D%0A%0D%0AQuero%20falar%20sobre%3A%20%0D%0A%0D%0AAtenciosamente%2C%0D%0A"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Enviar email
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
